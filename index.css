@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+html {
+  background: url("https://images8.alphacoders.com/115/1156900.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parent {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+a {
+  text-decoration: none;
+  color: Green;
+}
+.parent div {
+  font-size: 35px;
+  font-weight: bold;
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 300ms;
+  margin: auto;
+  margin-top: 30px;
+}
+.parent div:hover {
+  background-color: green;
+  transform: scale(1.1, 1.1);
+}
+a:hover {
+  color: white;
+}
